@@ -1,0 +1,29 @@
+
+<html>
+  <head>
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class= "todo-app">
+            <h2>To-Do List </h2>
+            <div class="row">
+                <input placeholder="Add a task" class="add-task" id="text-input"/>
+                <button class="add-button" id="add-button" onclick="addTask()">Add</button>
+                <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span>
+            </div>
+            <ul class="task-list">
+              <!-- <li class="task">
+                      <span>
+                          <span class="custom-icon circle-icon"></span>
+                          <span class="text">Buy Grocery</span>
+                      </span>
+                      <span class="trash-icon">&#x1F5D1;</span>            
+              </li> --> 
+            </ul>
+        </div>
+    </div>
+    <script src="todo2.js"></script>
+  </body>
+</html>
